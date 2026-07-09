@@ -27,3 +27,5 @@ https://nicofrommer-web.github.io/jewelkunst/
 ## Deployment
 
 GitHub Pages wird ueber Actions deployed. In GitHub unter **Settings > Pages** muss als Source **GitHub Actions** gewaehlt sein.
+
+Letzter Deployment-Trigger: README aktualisiert, um den GitHub-Pages-Workflow erneut auszufuehren.
