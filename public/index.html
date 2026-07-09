@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jewelkunst — Schmuck mit Bedeutung</title>
+  <meta name="description" content="Jewelkunst ist eine Premium-Schmuckmarke fuer zeitlose Halsketten, Armbaender, Ohrringe und Ringe mit leiser Eleganz." />
+  <style>
+    :root{--bg:#f7f1ea;--paper:rgba(255,255,255,.82);--ink:#18110d;--muted:#6f5d50;--gold:#a77a45;--line:rgba(70,47,31,.14)}
+    *{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:radial-gradient(circle at 10% 10%,rgba(167,122,69,.22),transparent 28%),linear-gradient(135deg,#f7f1ea,#eadccd);color:var(--ink)}
+    header{position:sticky;top:0;background:rgba(247,241,234,.78);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}nav{width:min(1120px,calc(100% - 40px));margin:0 auto;min-height:72px;display:flex;align-items:center;justify-content:space-between}.logo{font-family:Georgia,serif;letter-spacing:.12em;text-transform:uppercase}.navlinks{display:flex;gap:20px;color:var(--muted);font-size:14px}a{color:inherit;text-decoration:none}
+    main{width:min(1120px,calc(100% - 40px));margin:0 auto}.hero{min-height:calc(100vh - 72px);display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center;padding:70px 0}.eyebrow{letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-size:12px;font-weight:800;margin-bottom:18px}h1{font-family:Georgia,serif;font-size:clamp(48px,8vw,96px);line-height:.92;letter-spacing:-.055em;margin:0 0 28px}p{color:var(--muted);font-size:clamp(18px,2.1vw,23px);line-height:1.58;margin:0 0 30px;max-width:680px}.button{display:inline-flex;border-radius:999px;background:var(--ink);color:white;padding:15px 24px;font-weight:750}.visual{min-height:520px;border:1px solid var(--line);border-radius:42px;background:linear-gradient(160deg,rgba(255,255,255,.7),rgba(167,122,69,.16));box-shadow:0 34px 100px rgba(64,44,28,.14);position:relative;overflow:hidden}.visual:before{content:"";position:absolute;left:50%;top:45%;width:160px;height:160px;translate:-50% -50%;border-radius:50%;border:18px solid rgba(167,122,69,.78);box-shadow:0 20px 50px rgba(64,44,28,.14)}.visual:after{content:"JEWELKUNST";position:absolute;left:28px;bottom:28px;letter-spacing:.28em;color:rgba(24,17,13,.35);font-size:12px;font-weight:800}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding:0 0 70px}.card{background:var(--paper);border:1px solid var(--line);border-radius:28px;padding:28px;min-height:180px}.card h2{font-family:Georgia,serif;margin:0 0 12px;font-size:30px}.card p{font-size:16px;margin:0}@media(max-width:860px){.navlinks{display:none}.hero{grid-template-columns:1fr;padding:44px 0}.visual{min-height:380px}.cards{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header><nav><a class="logo" href="/">Jewelkunst</a><div class="navlinks"><a href="#kollektion">Kollektion</a><a href="/health">Status</a></div></nav></header>
+  <main>
+    <section class="hero">
+      <div><div class="eyebrow">Node.js App</div><h1>Schmuck, der leise bleibt und Bedeutung traegt.</h1><p>Eine warme, zeitlose Schmuckwelt fuer Halsketten, Armbaender, Ohrringe und Ringe — jetzt als direkt startbare Node.js-App gebaut.</p><a class="button" href="#kollektion">Kollektion ansehen</a></div>
+      <div class="visual" aria-label="Jewelkunst Schmuck Visual"></div>
+    </section>
+    <section id="kollektion" class="cards">
+      <article class="card"><h2>Halsketten</h2><p>Feine Linien und warme Oberflaechen fuer stille Naehe.</p></article>
+      <article class="card"><h2>Armbaender</h2><p>Zurueckhaltende Begleiter fuer jeden Tag.</p></article>
+      <article class="card"><h2>Ohrringe</h2><p>Sanfte Akzente fuer Licht, Gesicht und Bewegung.</p></article>
+    </section>
+  </main>
+</body>
+</html>
